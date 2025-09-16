@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root{
+  --font-family-asap:"Asap", sans-serif;
+  --font-family-inconsolata:"Inconsolata", sans-serif;
+  --font-family-mavenpro:"Maven Pro", sans-serif;
+  --text-lg-asap: 700 56px/120% "Asap", sans-serif;
+  --text-md-asap: 700 24px/120% var(--font-family-asap);
+  --text-sm-asap: 700 16px/120% var(--font-family-asap);
+  --text-subtitle: 600 20px/120% var(--font-family-inconsolata);
+  --text-md-mPro: 600 16px/140% var(--font-family-mavenpro);
+  --text-sm-mPro: 600 14px/140% var(--font-family-mavenpro);
+
+  --tx-red: #E3646E;
+  --tx-purple: #BB72E9;
+  --tx-blue:#3996DB;
+  --tx-green:#82BC4F;
+  --tx-yellow:#EABD5F;
+
+  --tx-gray-100:#E2E4E9;
+  --tx-gray-200:#C0C4CE;
+  --tx-gray-300:#878EA1;
+  --tx-gray-400:#292C34;
+  --tx-gray-500:#16181D;
+  --tx-gray-600:#0D0E11;
+
+}
+.container {
+  background-color: #16181d ;
+  
+}
+
+.container section{
+  width: 1366px;
+  margin: 0 auto;
+}
+.container .intro{
+  
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("../assets/Background_Intro.png");
+}
+.container .intro .img{
+  position: relative;
+  margin: 56px 0;
+
+}
+.container .intro .img::after{
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  content: url(
+  "../assets/icons/Avatar.svg");
+  /* height: 110px; */
+  /* width:110px; */
+}
+.intro .img img {
+  height: 87px;
+  width: 87px;
+  border-radius: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+}
+.flex{
+  display: flex;
+}
+
+.subtitulo{
+  font: var(--font-family-inconsolata);
+  color: var(--tx-gray-200);
+}
+
+.subred{
+  color: var(--tx-red);
+}
+
+.tituloLG{
+  font: var(--text-lg-asap);
+  color: var(--tx-gray-100);
+  margin: 20px 0;
+  
+}
+
+.descricaoSM{
+font:var(--text-sm-mPro);
+color: var(--tx-gray-300);
+}
+.container .intro .flex img{
+  height: 24px;
+  width: 24px;
+}
+.container .infos {
+gap: 16px;
+}
+.container .intro .flex.infos div {
+font:var(--text-md-mPro);
+color: var(--tx-gray-200);
+display: flex;
+align-items: center;
+}
+
