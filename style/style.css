@@ -43,6 +43,10 @@
   align-items: center;
   text-align: center;
   background-image: url("../assets/Background_Intro.png");
+  background-size: cover;       
+  background-position: center;  
+
+  
 }
 .container .intro .img{
   position: relative;
@@ -74,7 +78,7 @@
 }
 
 .subtitulo{
-  font: var(--font-family-inconsolata);
+  font: var(--text-subtitle);
   color: var(--tx-gray-200);
 }
 
@@ -92,6 +96,7 @@
 .descricaoSM{
 font:var(--text-sm-mPro);
 color: var(--tx-gray-300);
+margin-bottom: 80px;
 }
 .container .intro .flex img{
   height: 24px;
@@ -107,3 +112,18 @@ display: flex;
 align-items: center;
 }
 
+.container .intro .flex.infos .bordas {
+  
+  /* border: solid #BB72E9; */
+  border-radius: 150px;
+  background-color: var(--tx-gray-400);
+  padding: 8px 16px ;
+  margin-bottom: 94px;
+}
+
+.container div.flex  {
+  justify-content: center;
+  padding-bottom: 50px;
+  }
+  
+  
