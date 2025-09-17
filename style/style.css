@@ -241,6 +241,9 @@ figcaption{
     margin: 48px;
     background-color: var(--tx-gray-400);
 
+    div {
+      display: flex;
+    }
   }
 }
 
@@ -248,6 +251,7 @@ figcaption{
   font: var(--text-subtitle);
   color: var(--tx-purple);
 }
+
 .fonttrabalho{
   font: var(--text-md-mPro);
   color: var(--tx-gray-200);
