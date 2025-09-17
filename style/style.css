@@ -196,7 +196,7 @@ figcaption{
  }
 
  .container .servicos .servicosflex.flex div{
-  background-color: #3996DB;
+  /* background-color: #3996DB; */
   border: static 1px var(--tx-gray-100);
   /* align-items: center; */
   gap: 24px;
