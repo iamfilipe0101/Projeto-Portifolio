@@ -202,7 +202,8 @@ figcaption{
   padding: 20px;;
    
  }
- 
+
+
  .container .servicos .servicosflex .card {
   
   padding: 20px;
@@ -217,3 +218,46 @@ figcaption{
     margin-bottom: 20px;
    }
  }
+.container .contato{
+  margin-top:128px ;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../assets/Background_Contacts.png");
+  background-size: cover;       
+  background-position: center;  
+  width: 1366px;
+  height: 787px;
+  img {
+    
+  }
+  li{
+    
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 68px;
+    gap: 16px;
+    margin: 48px;
+    background-color: var(--tx-gray-400);
+
+  }
+}
+
+.fontcontato{
+  font: var(--text-subtitle);
+  color: var(--tx-purple);
+}
+.fonttrabalho{
+  font: var(--text-md-mPro);
+  color: var(--tx-gray-200);
+  align-items: center;
+  justify-content: space-between;
+  img {
+    margin-right: 20px;
+  }
+    
+  }
+  
+
+
